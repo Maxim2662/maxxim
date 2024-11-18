@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой ВУЗ - Потапов Максим</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #6001d2;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .nav-link {
+            color: #6001d2 !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <h1>УлГТУ - Мой ВУЗ</h1>
+    </header>
+
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Мой сайт</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded='false' aria-label='Toggle navigation'>
+            <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="group.html">Моя группа</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="university.html">Моя вуз</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Заголовок -->
+    <div class="container mt-4">
+        <h2>Информация о моем ВУЗе</h2>
+
+        <!-- Контент -->
+        <p>Я обучаюсь в УлГТУ. Ульяновский государственный технический университет(УлГТУ) - высшее учебное заведение, находящееся на севере Ульяновска. Это учебное заведение предлагает множество возможностей для развития и получения знаний в различных областях. Институт Является крупнейшим вузом Ульяновской области и одним из ведущих науных центров Поволжья.</p>
+
+        <!-- Карусель -->
+        <div id="carouselExampleIndicators" class="carousel slide mt-4" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="политех.jpg" class="d-block w-100" alt="Тарелка">
+                </div>
+                <div class="carousel-item">
+                    <img src="Мероприятие.jpg" class="d-block w-100" alt="Мероприятие">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Предыдущий</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Следующий</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="footer mt-4">
+        Дата создания страницы: 17.11.2024
+    </footer>
+
+    <!-- Скрипты Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
