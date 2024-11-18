@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя группа - Потапов Максим</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #6001d2;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .nav-link {
+            color: #6001d2 !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <h1>МОАИСбд-21 - Моя группа</h1>
+    </header>
+
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Мой сайт</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded='false' aria-label='Toggle navigation'>
+            <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="group.html">Моя группа</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="university.html">Мой вуз</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Заголовок -->
+    <div class="container mt-4">
+        <h2>Информация о моей группе</h2>
+
+        <!-- Контент -->
+        <p>Я учусь в группе МОАИСбд-21. В нашей группе всего 11 студентов. Мы маленькая группа, но, стоит отметить, что у нас довольно дружный коллектив.</p>
+
+        <!-- Таблица с информацией о студентах -->
+        <h3>Студенты группы</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Дмитрий</td>
+                    <td>Волков</td>
+                </tr>
+                <tr>
+                    <td>Дмитрий</td>
+                    <td>Гурьев</td>
+                </tr>
+                <tr>
+                    <td>Сергей</td>
+                    <td>Евсевичев</td>
+                </tr>
+		<tr>
+                    <td>Дмитрий</td>
+                    <td>Заводсков</td>
+                </tr>
+		<tr>
+                    <td>Артём</td>
+                    <td>Ключников</td>
+                </tr>
+		<tr>
+                    <td>Николай</td>
+                    <td>Костин</td>
+                </tr>
+		<tr>
+                    <td>Максим</td>
+                    <td>Потапов</td>
+                </tr>
+		<tr>
+                    <td>Дмитрий</td>
+                    <td>Рожнов</td>
+                </tr>
+		<tr>
+                    <td>Алексей</td>
+                    <td>Самохвалов</td>
+                </tr>
+		<tr>
+                    <td>Роман</td>
+                    <td>Токарев</td>
+                </tr>
+		<tr>
+                    <td>Марсель</td>
+                    <td>Хайруллов</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Кнопка -->
+        <button type="button" class="btn btn-primary">Связаться с одногруппниками</button>
+
+    </div>
+
+    <!-- Подвал -->
+    <footer class="footer mt-4">
+        Дата создания страницы: 17.11.24
+    </footer>
+
+    <!-- Скрипты Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
